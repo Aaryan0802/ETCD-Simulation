@@ -1,0 +1,12 @@
+{
+    "name": "kubernetes-etcd-recovery-demo",
+    "version": "1.0.0",
+    "description": "Simulation demo for Kubernetes etcd failure recovery",
+    "scripts": {
+        "start": "npx http-server . -p 3000",
+        "build": "mkdir -p dist && cp index.html dist/"
+    },
+    "devDependencies": {
+        "http-server": "^14.1.1"
+    }
+}
